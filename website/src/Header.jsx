@@ -49,7 +49,7 @@ function Header() {
           </div>
         </div>
         <div className="header__image">
-          <img src='/img/title_photo.jpg' alt="header" />
+          <img src='/img/davo.png' alt="header" />
         </div>
       </div>
     </header>

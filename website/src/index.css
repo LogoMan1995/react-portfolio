@@ -170,13 +170,22 @@ body {
   gap: 2rem;
   overflow: hidden;
   color: white;
-  margin: 2rem auto;
+  margin: 10rem auto;
 }
+
+
 
 .header__image img {
   max-width: 350px;
   margin-inline: auto;
   margin-top: 2rem;
+  border-radius: 50px;
+  filter: saturate(0) contrast(1.1);
+  margin: 0 0 0 auto;
+
+  @media screen and (max-width: 766px){
+    margin: 0 auto !important;
+  }
 }
 
 .header__content h2 {
